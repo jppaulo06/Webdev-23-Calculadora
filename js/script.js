@@ -145,7 +145,7 @@ function reset_panel() {
 
 function remove_last_char() {
   calculator.panel_string = calculator.panel_string
-    .slice(0, calculator.panel_string.length - 1);
+    .slice(0, -1);
   refresh_panel();
 }
 
